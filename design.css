@@ -1,0 +1,52 @@
+.bereichfuss {
+    text-align: center;
+    background-image: linear-gradient(#444, #222);
+}
+
+div[data-role="page"] {
+	background-color: #333;
+}
+
+.bildiminhalt {
+    width: 100%;
+    height: auto;
+}
+
+#termine {
+	background-image: url(bilder/gitarre.jpg);
+	background-size:cover;
+	background-position: bottom right;	
+}
+
+th {
+    border-bottom: 2px solid #333;
+    background-color: #333;
+    color: silver;
+}
+
+tr:nth-child(even) {
+    background-color: hsla(0, 90%, 0%, .8);
+    border-bottom: 1px solid #333;
+}
+
+tr:nth-child(odd) {
+    background-color: hsla(0, 50%, 0%, .4);
+    border-bottom: 1px solid #333;
+}
+
+audio {
+    width: 100%;
+}
+
+#termine,
+#musik,
+#kontakt,
+#login {
+    background-image: url(bilder/gitarre.jpg);
+    background-size:cover;
+    background-position: bottom right;	
+}
+
+#einlogformular input {
+	border: #999 solid 1px;
+}
